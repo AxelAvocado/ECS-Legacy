@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ECS.Exer3.Heater
 {
-    public class Heater
+    public class Heater : IHeater
     {
         public void TurnOn()
         {
